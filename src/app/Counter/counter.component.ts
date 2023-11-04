@@ -5,7 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './counter.component.html',
   styleUrls: ['./counter.component.css']
 })
+
 export class CounterComponent {
 
-    name:string = 'Felipe Haybar'; // string tipado
+  persona = {   
+    name: 'Felipe Haybar Valenzuela', // string tipado
+    age: 26 // number tipado
+  }
 }
