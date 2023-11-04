@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Persona } from '../persona';
 
 @Component({
   selector: 'app-counter',
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
 
 export class CounterComponent {
 
-  persona = {   
+  persona:Persona = {   
     name: 'Felipe Haybar Valenzuela', // string tipado
     age: 26 // number tipado
   }
